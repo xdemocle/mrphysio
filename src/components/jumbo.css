@@ -1,0 +1,58 @@
+.jumbo {
+  position: relative;
+  background-color: #54a5e7;
+  height: 70vh;
+  z-index: 0;
+}
+
+.jumbo .topbar {
+  position: absolute;
+  z-index: 9998;
+  background-color: #015ca686;
+}
+
+.jumbo--background {
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+
+  background-size: cover;
+  /* background-size: contain; */
+  background-position: center center;
+}
+
+.jumbo--inner {
+  /* position: relative; */
+  display: block;
+  height: calc(70vh - 4.5rem);
+}
+
+.jumbo--overlay {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  background-color: rgba(94, 135, 172, 0.45);
+}
+
+.jumbo--slogan {
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  transform: translateY(-50%);
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Oswald", sans-serif;
+}
