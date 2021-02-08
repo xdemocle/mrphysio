@@ -1,0 +1,76 @@
+.team {
+  background-color: var(--layout-palette3);
+  padding-bottom: 5rem;
+  color: var(--layout-palette4);
+}
+
+.team--inner {
+  max-width: var(--layout-max-width);
+  margin: 0 auto;
+  padding: 0 0.7rem;
+  overflow: hidden;
+}
+
+.team--title {
+  font-size: 3.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  color: var(--layout-palette2);
+}
+
+.team--column {
+  float: left;
+  width: 50%;
+  text-align: right;
+}
+
+.team--column:first-child {
+  text-align: left;
+}
+
+.team--column-inner {
+  overflow: hidden;
+}
+
+.team--column:first-child .team--column-inner {
+  border-right: 0.0625rem solid var(--layout-palette1);
+}
+
+.team--mate {
+  float: right;
+  border-radius: 0.3125rem;
+  box-shadow: 0px 0.0625rem 0.125rem var(--layout-palette2);
+  vertical-align: top;
+}
+
+.team--mate--left {
+  margin-right: 1rem;
+}
+
+.team--mate--right {
+  margin-left: 1rem;
+}
+
+.team--mate--text-right {
+  text-align: right;
+}
+
+.team--column:first-child .team--column-inner .team--mate {
+  float: left;
+}
+
+.team--description {
+  text-align: justify;
+  padding: 1rem;
+  line-height: 1.4rem;
+}
+
+.team--column:first-child .team--description {
+  float: left;
+}
+
+.team--description h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}

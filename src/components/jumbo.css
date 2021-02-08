@@ -3,6 +3,7 @@
   background-color: #54a5e7;
   height: 70vh;
   z-index: 0;
+  min-height: 23rem;
 }
 
 .jumbo .topbar {
@@ -29,6 +30,7 @@
   /* position: relative; */
   display: block;
   height: calc(70vh - 4.5rem);
+  min-height: 20rem;
 }
 
 .jumbo--overlay {
@@ -54,5 +56,35 @@
   color: white;
   text-align: center;
   font-size: 4rem;
-  font-family: "Oswald", sans-serif;
+  text-shadow: 1px 1px 0 #65798a;
+}
+
+.jumbo .react-slideshow-container .default-nav:first-of-type,
+.jumbo .react-slideshow-container .default-nav:last-of-type {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: var(--layout-palette1);
+  opacity: 0.6;
+}
+
+.jumbo .react-slideshow-container .default-nav:first-of-type svg,
+.jumbo .react-slideshow-container .default-nav:last-of-type svg {
+  fill: azure;
+}
+
+.jumbo .react-slideshow-container .default-nav:first-of-type:hover,
+.jumbo .react-slideshow-container .default-nav:last-of-type:hover {
+  /* fill: azure; */
+  opacity: 0.9;
+}
+
+.jumbo .react-slideshow-container .default-nav:first-of-type {
+  left: 5%;
+}
+
+.jumbo .react-slideshow-container .default-nav:last-of-type {
+  right: 5%;
 }

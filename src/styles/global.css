@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@300&family=Yellowtail&display=swap");
+@import "~react-slideshow-image/dist/styles.css";
+
+:root {
+  --layout-max-width: 80rem;
+  --layout-palette1: #015ca6;
+  --layout-palette2: #0267b9;
+  --layout-palette3: #dcedf1;
+  --layout-palette4: #696969;
+}
+
 html {
   font-size: 16px;
 }
@@ -7,4 +17,14 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Open Sans", sans-serif;
+  background-color: #f5f5f5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
 }

@@ -6,7 +6,7 @@ export default ({ dynamic = true }) => {
   const handleScroll = () => {
     const wintop = window.pageYOffset,
       winheight = window.innerHeight,
-      scrolltrigger = 0.5;
+      scrolltrigger = 0.4;
 
     // console.log("%scrolled=" + (wintop / winheight) * 100);
 
@@ -33,7 +33,9 @@ export default ({ dynamic = true }) => {
       }`}
     >
       <div className="topbar--inner">
-        <div className="logo">MrPhysio</div>
+        <div className="logo" title="Meyer & Rossouw Physio">
+          MR Physio
+        </div>
         <div className="contact">
           <ul>
             <li>
