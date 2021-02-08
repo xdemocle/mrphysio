@@ -12,6 +12,7 @@ export default () => {
           href="https://g.page/mr-physio-cape-town?share"
           target="_blank"
           title="Get direction on Google Maps"
+          rel="noreferrer"
         >
           158 Kloof Rd, Bantry Bay, Cape Town, 8005
         </a>

@@ -23,7 +23,11 @@ export default () => {
       <Zoom {...zoomInProperties}>
         {images.map((each, index) => (
           <div key={index} style={{ width: "100%" }}>
-            <img style={{ objectFit: "cover", width: "100%" }} src={each} />
+            <img
+              style={{ objectFit: "cover", width: "100%" }}
+              src={each}
+              alt={each}
+            />
           </div>
         ))}
       </Zoom>
