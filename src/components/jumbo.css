@@ -88,3 +88,26 @@
 .jumbo .react-slideshow-container .default-nav:last-of-type {
   right: 5%;
 }
+
+@media only screen and (max-width: 600px) {
+  .jumbo {
+    height: 80vh;
+  }
+
+  .jumbo--slogan {
+    font-size: 3rem;
+  }
+
+  .jumbo .react-slideshow-container .default-nav:first-of-type,
+  .jumbo .react-slideshow-container .default-nav:last-of-type {
+    bottom: 5%;
+  }
+
+  .jumbo .react-slideshow-container .default-nav:first-of-type {
+    left: 35%;
+  }
+
+  .jumbo .react-slideshow-container .default-nav:last-of-type {
+    right: 35%;
+  }
+}

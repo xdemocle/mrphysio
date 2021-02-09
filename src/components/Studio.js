@@ -2,15 +2,15 @@ import React from "react";
 import { Zoom } from "react-slideshow-image";
 import "./Studio.css";
 
+import a from "../images/studio/DSC0342.jpg";
+import b from "../images/studio/DSC0346.jpg";
+import c from "../images/studio/DSC0376.jpg";
+import d from "../images/studio/DSC0417.jpg";
+import e from "../images/studio/DSC0421.jpg";
+import f from "../images/studio/DSC0430.jpg";
+
 export default () => {
-  const images = [
-    "/static/images/studio/_DSC0342.jpg",
-    "/static/images/studio/_DSC0346.jpg",
-    "/static/images/studio/_DSC0376.jpg",
-    "/static/images/studio/_DSC0417.jpg",
-    "/static/images/studio/_DSC0421.jpg",
-    "/static/images/studio/_DSC0430.jpg",
-  ];
+  const images = [a, b, c, d, e, f];
 
   const zoomInProperties = {
     indicators: true,

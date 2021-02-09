@@ -11,15 +11,13 @@ export default () => {
         <div className="team--content">
           <div className="team--column">
             <div className="team--column-inner">
-              <div className="team--description">
+              <div className="team--description team--description--left">
                 <img
                   className="team--mate team--mate--left"
                   src={illustrationThreeSrc}
                   alt="illustrations_03.jpg"
                 />
-
-                <h3>Zeno Rossouw</h3>
-
+                <h3 className="team--mate--text-left">Zeno Rossouw</h3>
                 <p>
                   Zeno graduated from UCT in 2009. After completing his
                   community service he worked in the private sector specialising
@@ -38,20 +36,21 @@ export default () => {
                     safe and timely manner.
                   </strong>
                 </p>
+                <a href="tel:+27823205984">call</a> /{" "}
+                <a href="https://wa.me/27823205984">whatsapp</a> /{" "}
+                <a href="mailto:zeno013@gmail.com">email</a>
               </div>
             </div>
           </div>
           <div className="team--column">
             <div className="team--column-inner">
-              <div className="team--description">
+              <div className="team--description team--description--right">
                 <img
                   className="team--mate team--mate--right"
                   src={illustrationFourSrc}
                   alt="illustrations_04.jpg"
                 />
-
                 <h3 className="team--mate--text-right">Lorenzo Meyer</h3>
-
                 <p>
                   Lorenzo graduated from the University of Cape Town ( U.C.T.)
                   in 2005 and has been working in the realm of sports,
@@ -70,6 +69,9 @@ export default () => {
                     athletic of all ages.
                   </strong>
                 </p>
+                <a href="tel:+27827264468">call</a> /{" "}
+                <a href="https://wa.me/27827264468">whatsapp</a> /{" "}
+                <a href="mailto:lorenzo.meyer@gmail.com">email</a>
               </div>
             </div>
           </div>

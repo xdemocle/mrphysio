@@ -8,6 +8,8 @@ export default () => {
         MR Physio
       </div>
       <div>
+        Get direction:
+        <br />
         <a
           href="https://g.page/mr-physio-cape-town?share"
           target="_blank"
