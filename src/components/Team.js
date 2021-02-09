@@ -14,43 +14,10 @@ export default () => {
               <div className="team--description team--description--left">
                 <img
                   className="team--mate team--mate--left"
-                  src={illustrationThreeSrc}
-                  alt="illustrations_03.jpg"
-                />
-                <h3 className="team--mate--text-left">Zeno Rossouw</h3>
-                <p>
-                  Zeno graduated from UCT in 2009. After completing his
-                  community service he worked in the private sector specialising
-                  in musculoskeletal and post surgical rehabilitation. During
-                  his 10+ years of practical experience, he has worked with top
-                  hand and shoulder surgeons in the country. He is an avid
-                  athlete and supporter, working in events such as the Argus
-                  Cycle Tour, W2W, the Two Oceans Marathon and with sports teams
-                  such as Western Province women’s hockey team.
-                  <br />
-                  <strong>
-                    His interests and expertise lies within the treatment,
-                    management and rehabilitation of upper limb injuries (hand,
-                    wrist, elbow, shoulder and neck). Zeno strives to assist
-                    clients with returning to daily functional activity in a
-                    safe and timely manner.
-                  </strong>
-                </p>
-                <a href="tel:+27823205984">call</a> /{" "}
-                <a href="https://wa.me/27823205984">whatsapp</a> /{" "}
-                <a href="mailto:zeno013@gmail.com">email</a>
-              </div>
-            </div>
-          </div>
-          <div className="team--column">
-            <div className="team--column-inner">
-              <div className="team--description team--description--right">
-                <img
-                  className="team--mate team--mate--right"
                   src={illustrationFourSrc}
                   alt="illustrations_04.jpg"
                 />
-                <h3 className="team--mate--text-right">Lorenzo Meyer</h3>
+                <h3 className="team--mate--text-left">Lorenzo Meyer</h3>
                 <p>
                   Lorenzo graduated from the University of Cape Town ( U.C.T.)
                   in 2005 and has been working in the realm of sports,
@@ -72,6 +39,40 @@ export default () => {
                 <a href="tel:+27827264468">call</a> /{" "}
                 <a href="https://wa.me/27827264468">whatsapp</a> /{" "}
                 <a href="mailto:lorenzo.meyer@gmail.com">email</a>
+              </div>
+            </div>
+          </div>
+
+          <div className="team--column">
+            <div className="team--column-inner">
+              <div className="team--description team--description--right">
+                <img
+                  className="team--mate team--mate--right"
+                  src={illustrationThreeSrc}
+                  alt="illustrations_03.jpg"
+                />
+                <h3 className="team--mate--text-right">Zeno Rossouw</h3>
+                <p>
+                  Zeno graduated from UCT in 2009. After completing his
+                  community service he worked in the private sector specialising
+                  in musculoskeletal and post surgical rehabilitation. During
+                  his 10+ years of practical experience, he has worked with top
+                  hand and shoulder surgeons in the country. He is an avid
+                  athlete and supporter, working in events such as the Argus
+                  Cycle Tour, W2W, the Two Oceans Marathon and with sports teams
+                  such as Western Province women’s hockey team.
+                  <br />
+                  <strong>
+                    His interests and expertise lies within the treatment,
+                    management and rehabilitation of upper limb injuries (hand,
+                    wrist, elbow, shoulder and neck). Zeno strives to assist
+                    clients with returning to daily functional activity in a
+                    safe and timely manner.
+                  </strong>
+                </p>
+                <a href="tel:+27823205984">call</a> /{" "}
+                <a href="https://wa.me/27823205984">whatsapp</a> /{" "}
+                <a href="mailto:zeno013@gmail.com">email</a>
               </div>
             </div>
           </div>
