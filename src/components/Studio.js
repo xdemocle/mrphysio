@@ -4,7 +4,6 @@ import "./Studio.css";
 
 import a from "../images/studio/DSC0342.jpg";
 import b from "../images/studio/DSC0346.jpg";
-import c from "../images/studio/DSC0376.jpg";
 import d from "../images/studio/DSC0417.jpg";
 import e from "../images/studio/DSC0421.jpg";
 import f from "../images/studio/DSC0430.jpg";
