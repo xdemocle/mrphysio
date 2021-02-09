@@ -9,7 +9,7 @@ import e from "../images/studio/DSC0421.jpg";
 import f from "../images/studio/DSC0430.jpg";
 
 export default () => {
-  const images = [a, b, c, d, e, f];
+  const images = [a, b, d, e, f];
 
   const zoomInProperties = {
     indicators: true,
