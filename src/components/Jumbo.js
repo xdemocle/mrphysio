@@ -23,7 +23,7 @@ export default () => {
             <h1 className="jumbo--slogan">
               WE CARE
               <br />
-              ABOUT YOUR HEALTH
+              ABOUT YOUR WELL-BEING
             </h1>
           </div>
         </div>
