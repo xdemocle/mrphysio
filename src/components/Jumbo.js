@@ -35,9 +35,8 @@ export default () => {
           <div className="jumbo--inner">
             <div className="jumbo--overlay"></div>
             <h1 className="jumbo--slogan">
-              WE CARE
-              <br />
-              ABOUT YOUR WELL-BEING
+              we consider each client
+              <br /> individually as we aim to:
             </h1>
           </div>
         </div>
@@ -49,9 +48,8 @@ export default () => {
           <div className="jumbo--inner">
             <div className="jumbo--overlay"></div>
             <h1 className="jumbo--slogan">
-              WE CARE
-              <br />
-              ABOUT YOUR WELL-BEING
+              Educate and Assist
+              <br /> in pain management and pain relief
             </h1>
           </div>
         </div>
@@ -63,9 +61,9 @@ export default () => {
           <div className="jumbo--inner">
             <div className="jumbo--overlay"></div>
             <h1 className="jumbo--slogan">
-              WE CARE
+              Restore movement
               <br />
-              ABOUT YOUR WELL-BEING
+              ability and quality of movement
             </h1>
           </div>
         </div>
@@ -77,9 +75,8 @@ export default () => {
           <div className="jumbo--inner">
             <div className="jumbo--overlay"></div>
             <h1 className="jumbo--slogan">
-              WE CARE
-              <br />
-              ABOUT YOUR WELL-BEING
+              Diagnose, establish a treatment,
+              <br /> recovery, and a rehabilitation plan
             </h1>
           </div>
         </div>

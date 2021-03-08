@@ -1,7 +1,7 @@
 .footer {
   background-color: var(--layout-palette1);
   color: white;
-  padding: 1rem 0;
+  padding: 3rem 0 8rem 0;
   text-align: center;
   line-height: 1.7rem;
 }

@@ -2,6 +2,7 @@ import * as React from "react";
 import { Helmet } from "react-helmet";
 import Topbar from "../components/Topbar";
 import Jumbo from "../components/Jumbo";
+import Introduction from "../components/Introduction";
 import Team from "../components/Team";
 import Studio from "../components/Studio";
 import Footer from "../components/Footer";
@@ -20,12 +21,21 @@ const pageStyles = {
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <Helmet
-        title="Welcome to MrPhysio | physiotherapist cape town"
-        defer={false}
-      />
+      <Helmet defer={false}>
+        <html lang="en" />
+        <title>
+          Welcome to MrPhysio | Physiotherapist Bantry Bay, Cape Town
+        </title>
+        <meta charSet="utf-8" />
+        <meta
+          name="description"
+          content="MrPhysio offer physiotherapy services in Bantry Bay, Cape Town"
+        />
+        <meta property="og:type" content="website" />
+      </Helmet>
       <Topbar />
       <Jumbo />
+      <Introduction />
       <Team />
       <Studio />
       <Footer />
