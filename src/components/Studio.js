@@ -18,7 +18,7 @@ export default () => {
 
   return (
     <div className="studio">
-      <h2 className="team--title">The studio</h2>
+      <h2 className="studio--title">The studio</h2>
       <Zoom {...zoomInProperties}>
         {images.map((each, index) => (
           <div key={index} style={{ width: "100%" }}>

@@ -87,6 +87,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .team--title {
+    font-size: 2.5rem;
+  }
+
   .team--column {
     float: none;
     width: 100%;

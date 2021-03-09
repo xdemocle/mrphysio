@@ -4,6 +4,14 @@
   max-width: var(--layout-max-width);
 }
 
+.studio--title {
+  font-size: 3.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  color: var(--layout-palette2);
+}
+
 .studio .react-slideshow-container .default-nav:first-of-type,
 .studio .react-slideshow-container .default-nav:last-of-type {
   position: absolute;
@@ -32,4 +40,10 @@
 
 .studio .react-slideshow-container .default-nav:last-of-type {
   right: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+  .studio--title {
+    font-size: 2.5rem;
+  }
 }

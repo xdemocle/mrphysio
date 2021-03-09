@@ -26,23 +26,36 @@
 
 .introduction--main__item {
   display: inline-block;
-  width: calc(50% - 0.5rem);
   vertical-align: top;
 }
 .introduction--main__lf {
+  width: calc(60% - 0.5rem);
   margin-right: 0.5rem;
-  font-size: 1rem;
-  line-height: 1.95rem;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.05rem;
 }
 .introduction--main__rh {
+  width: calc(40% - 0.5rem);
   margin-left: 0.5rem;
+  font-size: 1.1rem;
+  padding-top: 1rem;
 }
 
 @media only screen and (max-width: 600px) {
+  .introduction--title {
+    font-size: 2.5rem;
+  }
   .introduction--main__item {
     width: 100%;
   }
+  .introduction--main__lf {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    letter-spacing: 0;
+  }
   .introduction--main__rh {
     margin-left: 0;
+    padding-top: 0;
   }
 }

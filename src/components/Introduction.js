@@ -7,21 +7,29 @@ export default () => {
       <div className="introduction--inner">
         <h2 className="introduction--title">About us</h2>
         <div className="introduction--main">
-          <p className="introduction--main__item introduction--main__lf">
-            <strong>MR Physio</strong>therapy (Meyer & Rossouw{" "}
-            <strong>physiotherapy</strong>), opened its doors on 1 September
-            2019 and continue to provide a personal, caring, yet highly
-            professional “get to the root of the cause and effect change{" "}
-            <strong>physiotherapy service</strong>.
-          </p>
+          <div className="introduction--main__item introduction--main__lf">
+            <p>
+              <strong>MR Physio</strong>therapy (Meyer & Rossouw{" "}
+              <strong>physiotherapy</strong>), opened its doors on 1 September
+              2019 and continue to provide a personal, caring, yet highly
+              professional “get to the root of the cause and effect change{" "}
+              <strong>physiotherapy service</strong>.
+            </p>
+          </div>
 
-          <p className="introduction--main__item introduction--main__rh">
-            We have a particular interest in the treatment of: sports injures,
-            orthopaedic and musculoskeletal injuries, Pre and post surgical
-            rehabilitation for upper limb, lower limb and spinal cases,
-            ergonomic and repetitive strain injuries, postural and overuse
-            injuries / aches and pains, growth sport injuries in young children.
-          </p>
+          <div className="introduction--main__item introduction--main__rh">
+            <p>We have a particular interest in the treatment of:</p>
+
+            <ul>
+              <li>Sports injures;</li>
+              <li>Orthopaedic and musculoskeletal injuries;</li>
+              <li>Pre and post surgical rehabilitation for upper limb;</li>
+              <li>Lower limb and spinal cases;</li>
+              <li>Ergonomic and repetitive strain injuries;</li>
+              <li>Postural and overuse injuries / aches and pains;</li>
+              <li>Growth sport injuries in youngchildren.</li>
+            </ul>
+          </div>
 
           {/* <p>
             Our clients are our main priority and we consider each client
